@@ -1,0 +1,25 @@
+.card_container{
+    border-radius: 0.5rem;
+    overflow: hidden;
+    max-height: 20rem;
+    max-width : 18rem;
+    cursor : pointer;
+    transition: all .2s ease-in-out;
+
+
+    &:hover{
+        filter: drop-shadow(0 0 20px #1E2F23) ;
+        transform: translateY(-10px);
+    }
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+}
+
+
+.title{
+    text-align: center;
+    text-transform: capitalize;
+}

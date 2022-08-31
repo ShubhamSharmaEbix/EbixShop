@@ -1,0 +1,33 @@
+.addToCart{
+    width: 50%;
+    border : 1px solid #080708;
+    transition: all .2s ease-in-out;
+    background-color: transparent;
+    border-radius:  5px;
+
+    &:hover{
+        background-color: #080708;
+        color : #fff
+    }
+}
+
+
+.total_item{
+    width : auto ;
+    max-width : 2rem
+}
+
+.button{
+    background-color: #fff;
+    &:hover{
+        background-color: #eee;
+
+    }
+}
+
+@media(max-width :480px){
+    .addToCart{
+        width : 80%;
+    }
+}
+

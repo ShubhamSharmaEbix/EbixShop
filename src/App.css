@@ -1,0 +1,13 @@
+.App {
+  background-color: #eee;
+}
+
+*{
+  box-sizing: border-box;
+  scrollbar-width: none;  
+  
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
